@@ -1,0 +1,11 @@
+Ver 0.1 24-12-2017
+    13:03 - Se cambió conjunto de mapas de datos, a un mapa que contiene una estructura con todos los datos necesarios para cada servicio y sus requerimientos.
+Ver 0.2 26-12-2017
+    12:06 - Se reemplazó parámetro de Settings; Cantidad máxima consecutiva por duración en horas del turno. De esta manera, hubo que cambiar la función de lectura.
+    12:31 - Se agregó nuevamente cantidad máxima consecutiva. Se cambió código para satisfacer dicha opción.
+    13:01 - Se modificaron funciones ocupadas en lectura para realizar chequeos extra de cumplimiento de formato.
+    13:45 - Se cambiaron los turnos siguientes inválidos a turnos anteriores inválidos.
+    16:35 - Se decidió utilizar C++11.
+    17:34 - Se agregaron cantidad máximas de horas para día y semana.
+Ver 0.3 27-12-2017
+    12:07 - Se finalizo la funcion para verificar que el funcionario no trabaje mas de las horas maximas definidas por ley (a la semana).

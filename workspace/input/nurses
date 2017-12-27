@@ -1,0 +1,69 @@
+# Esto es un comentario. Comentarios comienzan con #
+# Días de la semana = LUN, MAR, MIE, JUE, VIE, SAB, o DOM
+
+LISTADO_DE_ENFERMERAS
+# FuncionarioID, Nombre, Días de la semana que trabaja (0 no trabajo, 1 sí trabaja. Orden: lunes a domingo), Tipo de turno (Solo turno x, cualquier turno 0)
+1,Gabbi,1|1|1|1|1|1|1,0
+2,Arabela,1|1|1|1|1|1|1,0
+3,Joana,1|1|1|1|1|1|1,0
+4,Esme,1|0|1|1|1|1|1,0
+5,Kitty,1|1|1|1|1|1|1,0
+6,Vivyan,1|1|1|1|1|0|0,0
+7,Whitby,1|1|1|1|1|1|1,0
+8,Douglas,1|1|1|1|1|0|0,3
+9,Mercy,1|1|1|1|1|1|1,0
+10,Rosalinde,1|1|1|1|1|1|1,0
+11,Ruthy,1|1|1|1|1|1|1,0
+12,Mitchael,1|1|1|1|1|1|1,0
+13,Edin,1|1|1|1|1|1|1,0
+14,Fidole,1|1|1|1|1|1|1,0
+15,Zorana,1|1|1|1|1|1|1,0
+16,Flory,1|1|1|1|1|1|1,0
+17,Kirby,1|1|1|1|1|1|1,0
+18,Libbey,1|1|1|1|1|1|1,0
+19,Feodor,1|1|1|1|1|1|1,0
+20,Gram,1|1|1|1|1|1|1,0
+21,Millie,1|1|1|1|1|1|1,0
+22,Adan,1|1|1|1|1|1|1,0
+23,Yorgo,1|1|1|1|1|1|1,0
+24,Kenon,1|1|1|1|1|1|1,0
+25,Midge,1|1|1|1|1|1|1,0
+26,Cosmo,1|1|1|1|1|1|1,0
+27,Christabella,1|1|1|1|1|1|1,0
+28,Alonzo,1|1|1|1|1|1|1,0
+29,Laurianne,1|1|1|1|1|1|1,0
+30,Shari,1|1|1|1|1|1|1,0
+31,Seward,1|1|1|1|1|1|1,0
+32,Uriah,1|1|1|1|1|1|1,0
+33,Bernard,1|1|1|1|1|1|1,0
+34,Bartholomew,1|1|1|1|1|1|1,0
+35,Artemis,1|1|1|1|1|1|1,0
+36,Augustus,1|1|1|1|1|1|1,0
+37,Tam,1|1|1|1|1|1|1,0
+38,Danit,1|1|1|1|1|0|0,3
+39,Leonie,1|1|1|1|1|1|1,0
+40,Donnie,1|1|1|1|1|0|0,3
+41,Thaine,1|1|1|1|1|0|0,3
+42,Nathalia,1|1|1|1|1|1|1,0
+43,Heriberto,1|1|1|1|1|1|1,0
+44,Vera,1|1|1|1|1|0|0,3
+45,Aldridge,1|1|1|1|1|1|1,0
+46,Koo,1|1|1|1|1|1|1,0
+47,Bertram,1|1|1|1|1|0|0,3
+48,Shirl,1|1|1|1|1|0|0,3
+49,Stinky,1|1|1|1|1|1|1,0
+50,Gaston,1|1|1|1|1|1|1,0
+
+DÍAS_LIBRES_POR_SOLICITUD_APROBADA
+# FuncionarioID, Día del mes libre (separados por coma)
+1,1
+9,4
+
+DÍAS_DE_VACACIONES_POR_FUNCIONARIO
+# FuncionarioID, Día inicial (0 si inicio se da en mes anterior), Día término (0 si término se da en mes posterior)
+5,6,22
+10,28,0
+
+DIAS_LIBRES_POR_RAZONES_MÉDICAS
+# FuncionarioID, Día inicial (0 si inicio se da en mes anterior), Día término (0 si término se da en mes posterior)
+1,1,3

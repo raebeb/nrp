@@ -1,0 +1,20 @@
+# Esto es un comentario. Comentarios comienzan con #
+-Archivos separados por servicio (detalles personal)
+-nombre servicio, turnos por servicio (tipos de servicio), numero min de funcionario por turnos.
+
+#Total de turnos a programar.
+
+TIPOS_DE_TURNOS
+Turnos=5
+# TurnoID, Composición 
+1,largo
+2,noche
+3,largo-noche-libre-libre
+4,largo-noche-libre
+5,dia
+
+REQUISITOS_POR_TURNO
+# TurnoID, Funcionarios mínimo, Funcionarios máximos
+1,13,14
+2,6,7
+5,6,7
